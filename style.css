@@ -31,8 +31,9 @@
 }
 
 .row {
-    border-radius: 50%;
+    border-radius: 5px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -53,15 +54,22 @@ p {
     font-stretch: ultra-expanded;
 }
 
-.price {
-    display:flex;
+.price{
+    display:inline;
 }
+
 .sale {
     color: var(--Dark-cyan);
 }
 
 button {
     background-color: var(--Dark-cyan);
+    color: var(--White);
+    border-radius: 7px;
+    border: none;
+    border-style: solid;
+    text-align: center;
+    width: fit-content;
 }
 
 @media only screen and (max-width: 1440px){
