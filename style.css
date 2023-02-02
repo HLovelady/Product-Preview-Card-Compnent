@@ -41,9 +41,10 @@
 
 }
 
-h2 {
+h2, .sale {
     font-family: mySecondFont;
     font-weight: 700;
+    font-size: 25px;
 }
 
 p {
